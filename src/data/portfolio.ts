@@ -46,10 +46,10 @@ export const projects: Project[] = [
     technologies: ['React Native', 'Expo', 'TypeScript', 'Firebase', 'Firestore', 'Cloud Functions', 'Razorpay'],
     repository: '',
     slides: [
-      { src: '/images/projects/everest-canteen-menu.png', alt: 'Everest Canteen mobile menu screen showing food categories and menu items.', caption: 'Browse the menu' },
-      { src: '/images/projects/everest-canteen-checkout.png', alt: 'Everest Canteen checkout screen with an item, quantity control, and place order button.', caption: 'Review the cart and checkout' },
-      { src: '/images/projects/everest-canteen-tickets.png', alt: 'Everest Canteen maintenance tickets screen.', caption: 'Maintenance tickets' },
-      { src: '/images/projects/everest-canteen-orders.png', alt: 'Everest Canteen orders screen showing an order summary and status.', caption: 'Track order status' },
+      { src: '/images/projects/everest-canteen-menu.png', alt: 'Everest Canteen mobile menu screen showing food categories and menu items.', caption: 'Browse the menu', orientation: 'portrait' },
+      { src: '/images/projects/everest-canteen-checkout.png', alt: 'Everest Canteen checkout screen with an item, quantity control, and place order button.', caption: 'Review the cart and checkout', orientation: 'portrait' },
+      { src: '/images/projects/everest-canteen-tickets.png', alt: 'Everest Canteen maintenance tickets screen.', caption: 'Maintenance tickets', orientation: 'portrait' },
+      { src: '/images/projects/everest-canteen-orders.png', alt: 'Everest Canteen orders screen showing an order summary and status.', caption: 'Track order status', orientation: 'portrait' },
     ],
   },
   {

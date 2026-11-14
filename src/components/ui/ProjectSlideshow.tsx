@@ -21,7 +21,7 @@ export function ProjectSlideshow({ title, slides }: ProjectSlideshowProps) {
         changeSlide(event.key === 'ArrowLeft' ? -1 : 1);
       }
     }}>
-      <div className="slideshow-image-wrap">
+      <div className={`slideshow-image-wrap${current.orientation ? ` slideshow-image-wrap--${current.orientation}` : ''}`}>
         <img className="slideshow-image" src={current.src} alt={current.alt} width={1200} height={680} loading="lazy" draggable={false} />
         {slides.length > 1 && <>
           <button type="button" className="slide-hit-area slide-hit-area--previous" onClick={() => changeSlide(-1)} aria-label={`Previous ${title} preview`} />

@@ -12,6 +12,7 @@ export interface ProjectSlide {
   src: string;
   alt: string;
   caption: string;
+  orientation?: 'portrait' | 'landscape';
 }
 
 export interface Project {
