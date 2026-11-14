@@ -9,8 +9,8 @@ export const profile = {
   email: 'sreevaniyaramaddu@gmail.com',
   phone: '+91 93460 61298',
   phoneHref: 'tel:+919346061298',
-  github: '',
-  linkedin: '',
+  github: 'https://github.com/sreevani-yarramaddu',
+  linkedin: 'https://www.linkedin.com/in/sreevani-y',
   resume: '/Sree_Resume.pdf',
   image: '/sreevani-profile.jpg',
 };
