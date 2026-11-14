@@ -5,7 +5,7 @@ export const profile = {
   name: 'Sreevani Y',
   firstName: 'Sreevani',
   lastName: 'Y',
-  role: 'Software Engineer',
+  role: 'Software Craftsperson',
   email: 'sreevaniyaramaddu@gmail.com',
   phone: '+91 93460 61298',
   phoneHref: 'tel:+919346061298',
