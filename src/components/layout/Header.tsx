@@ -10,7 +10,7 @@ export function Header() {
   return (
     <header className="header">
       <div className="container header-inner">
-        <a className="wordmark" href="#home" aria-label={`${profile.name}, home`}>v<span>m.</span></a>
+        <a className="wordmark" href="#home" aria-label={`${profile.name}, home`}>s<span>y.</span></a>
         <button className="menu-toggle" type="button" aria-label={isMenuOpen ? 'Close navigation' : 'Open navigation'} aria-expanded={isMenuOpen} aria-controls="main-navigation" onClick={() => setIsMenuOpen(!isMenuOpen)}>{isMenuOpen ? <X /> : <Menu />}</button>
         <nav id="main-navigation" className={`navigation ${isMenuOpen ? 'is-open' : ''}`} aria-label="Main navigation" onKeyDown={event => { if (event.key === 'Escape') { setIsMenuOpen(false); document.querySelector<HTMLButtonElement>('.menu-toggle')?.focus(); } }}>
           {navigation.map(link => <a key={link.id} href={`#${link.id}`} aria-current={activeSection === link.id ? 'location' : undefined} onClick={() => setIsMenuOpen(false)}>{link.label}</a>)}

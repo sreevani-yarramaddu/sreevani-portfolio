@@ -1,4 +1,4 @@
-# Venkatesh Maley · Portfolio
+# Sreevani Y · Portfolio
 
 A responsive, single-page React + TypeScript portfolio with Motion animations and a centralized three-shade blue theme. The design uses a dark navy canvas, a layered portrait composition, alternating project showcases, and a responsive skills grid. No backend, database, email credentials, or contact form is needed.
 
@@ -32,8 +32,8 @@ src/
 - Change the three blue tokens in `src/styles/theme.css` to recolor the complete site. Neutral tokens, typography, and container width are also centralized there.
 - Use the Day / Night toggle in the header to switch modes. The first visit follows the device preference; a chosen mode is remembered in localStorage. Both palettes are centralized in `src/styles/theme.css`, and theme behavior lives in `src/theme/theme.ts`.
 - Edit personal details, project links, and section data in `src/data/portfolio.ts`.
-- The hero uses `public/profile-pic.jpg`. Replace that photo or update `profile.image` in `src/data/portfolio.ts` to use a different image.
-- Replace `public/Venkatesh_Maley_Full_Stack.pdf` when updating the resume.
+- Add a portrait and set `profile.image` in `src/data/portfolio.ts` to use it in the hero.
+- Replace `public/Sree_Resume.pdf` when updating the resume.
 - Each project has a manual slideshow with three locally bundled sample screens. These SVG images are illustrative demos with fictional data, not screenshots of the live applications. Click or tap the left/right half of an image to go to the previous/next slide. Small clickable dots underneath indicate the active slide. Keyboard navigation and screen-reader announcements are supported without autoplay.
 - Replace the slide paths, alt text, and captions in `src/data/portfolio.ts` when real screenshots are available. Sample images live in `public/images/projects` and can be regenerated with `node scripts/generate-project-previews.mjs`.
 - Slides display directly without nested viewer borders or fake browser chrome. Sample provenance remains in the image metadata and descriptive alt text.
